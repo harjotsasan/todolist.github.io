@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #F1F7D7;
+  margin: 1rem 0rem;
+}
+.container{
+  width: 30%;
+  height: 100%;
+  padding: 1rem 2.5rem;
+  margin: auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  border: 0.2rem solid rgba(159, 205, 50, 0.5);
+  background-color: rgba(159, 205, 50, 0.3);;
+  border-radius: 1.5rem;
+  color: rgb(96, 50, 205);
+}
+header{
+  color: rgb(96, 50, 205);
+  background-color: rgba(159, 205, 50, 1);
+  border-radius: 1.5rem;
+  text-align: center;
+  padding: 0.7rem 0rem;
+}
+form{
+  margin: 0.5rem 0rem;
+  padding: 0.5rem 0rem;
+  background-color: rgba(159, 205, 50, 1);
+  border-radius: 1.5rem;
+  text-align: center;
+}
+input{
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  width: 65%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  border: none;
+}
+button{
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  border: none;
+  font-size: .8rem;
+  color: rgb(96, 50, 205);
+  background-color: rgba(0, 211, 255, 1);
+}
+button:hover{
+  background-color: rgba(0, 211, 255, 0.5);
+}
+i{
+  font-size: 1rem;
+}
+i:hover{
+  color: black;
+}
+ol{
+  background-color: rgba(159, 205, 50, 1);;
+  padding: 1rem 0rem 1rem 3rem;
+  display: block;
+  list-style: none;
+  border-radius: 1.25rem;
+}
+li{
+  display: inline-flex;
+  padding: 0.7rem 0.5rem;
+}
+
+ol:empty{
+  display: none;
+}
+::placeholder{
+  color: rgb(96, 50, 205);
+  font-family: 'Noto Sans JP', sans-serif;
+}
