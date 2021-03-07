@@ -43,9 +43,9 @@ input{
   border: none;
 }
 button{
-  margin: 0;
+  margin-right: 0.1rem;
   padding: 0.5rem;
-  border-radius: 5rem;
+  border-radius: 0.5rem;
   border: none;
   font-size: .8rem;
   color: rgb(96, 50, 205);
@@ -78,4 +78,10 @@ ol:empty{
 ::placeholder{
   color: rgb(96, 50, 205);
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.striker{
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(255, 0, 0);
 }

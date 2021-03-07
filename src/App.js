@@ -32,8 +32,7 @@ function App() {
       );
     })
   }
-
-
+  
   return (
     <>
       <div className="container">
@@ -42,7 +41,7 @@ function App() {
         <form>
           <input type='text' placeholder='Enter To-Do Items.' value={toDoInputValue} name='todo-item' onChange={onChangeHandler}/>
           <button onClick={onClickEvent}>
-            <i class="fas fa-plus"></i>
+            <i className="fas fa-plus"></i>
           </button>
         </form>
       </div>
